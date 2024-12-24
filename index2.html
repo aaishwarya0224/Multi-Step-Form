@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZenStreet.ai - Address Info</title>
+  <!-- Default light theme -->
+  <link rel="stylesheet" href="styles.css" id="theme-stylesheet">
+  <!-- Dark theme -->
+  <link rel="stylesheet" href="dark.css" id="dark-theme" disabled>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="zenstreet.ai.png" alt="ZenStreet.ai Logo" class="logo">
+    <h1 class="brand-name"><b>Zen</b>Street.ai</h1>
+    <!-- Dark Mode Toggle -->
+    <div id="theme-toggle">
+      <img id="theme-icon" src="moon.png" alt="Toggle Dark Mode">
+    </div>
+  </header>
+
+  <!-- Created By -->
+  <section class="created-by">
+    <p>Created by <b>Aaishwarya Khalane</b></p>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container">
+      <h2>Address Information</h2>
+      <form id="address-info-form">
+        <div class="form-group">
+          <label for="house-name">House/Flat No/Name</label>
+          <input type="text" id="house-name">
+        </div>
+        <div class="form-group">
+          <label for="city">City <span class="mandatory">*</span></label>
+          <input type="text" id="city" required>
+          <span id="city-error" class="error-message">City is required.</span>
+        </div>
+        <div class="form-group">
+          <label for="state">State <span class="mandatory">*</span></label>
+          <input type="text" id="state" required>
+          <span id="state-error" class="error-message">State is required.</span>
+        </div>
+        <div class="form-group">
+          <label for="country">Country <span class="mandatory">*</span></label>
+          <input type="text" id="country" required>
+          <span id="country-error" class="error-message">Country is required.</span>
+        </div>
+        <div class="form-buttons">
+          <button type="button" class="btn btn-prev">Previous</button>
+          <button type="button" class="btn btn-next">Next</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <h3><b>ZenStreet.ai</b></h3>
+      <p>
+        We are ZenStreet.ai, a mental health-tech SaaS platform dedicated to transforming care delivery. 
+        At ZenStreet.ai, we believe in revolutionizing the way mental health care is delivered, making it more 
+        accessible, effective, and rewarding for both therapists and patients.
+      </p>
+    <h4>Connect with Us</h4>
+      <div class="social-media">
+        <a href="https://linkedin.com/in/aaishwaryakhalane" target="_blank"><img src="linkedin.png" alt="LinkedIn Logo"></a>
+        <a href="https://linkedin.com/in/aaishwaryakhalane" target="_blank"><img src="instagram.png" alt="Instagram Logo"></a>
+        <a href="https://linkedin.com/in/aaishwaryakhalane" target="_blank"><img src="twitter.png" alt="Twitter Logo"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

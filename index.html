@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZenStreet.ai</title>
+  <!-- Day mode styles -->
+  <link id="theme-stylesheet" rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="zenstreet.ai.png" alt="ZenStreet.ai Logo" class="logo">
+    <h1 class="brand-name"><b>Zen</b>Street.ai</h1>
+    <!-- Dark Mode Toggle -->
+    <div id="theme-toggle">
+      <img id="theme-icon" src="moon.png" alt="Toggle Dark Mode">
+    </div>
+  </header>
+
+  <!-- Created By -->
+  <section class="created-by">
+    <p>Created by <b>Aaishwarya Khalane</b></p>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container">
+      <h2>Personal Information</h2>
+      <form id="personal-info-form">
+        <div class="form-group">
+          <label for="first-name">First Name <span class="mandatory">*</span></label>
+          <input type="text" id="first-name" required>
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name <span class="mandatory">*</span></label>
+          <input type="text" id="last-name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email <span class="mandatory">*</span></label>
+          <input type="email" id="email" required>
+          <span id="email-error" class="error-message"></span>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number <span class="mandatory">*</span></label>
+          <div class="phone-input">
+            <select id="country-code">
+              <option value="+1">+1</option>
+              <option value="+91">+91</option>
+              <!-- Add other country codes as needed -->
+            </select>
+            <input type="tel" id="phone" required>
+          </div>
+        </div>
+        <button type="submit" class="btn">Next</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <h3><b>ZenStreet.ai</b></h3>
+      <p>
+        We are ZenStreet.ai, a mental health-tech SaaS platform dedicated to transforming care delivery. 
+        At ZenStreet.ai, we believe in revolutionizing the way mental health care is delivered, making it more 
+        accessible, effective, and rewarding for both therapists and patients.
+      </p>
+      <h4>Connect with Us</h4>
+      <div class="social-media">
+        <a href="https://linkedin.com/in/aaishwaryakhalane" target="_blank"><img src="linkedin.png" alt="LinkedIn Logo"></a>
+        <a href="https://linkedin.com/in/aaishwaryakhalane" target="_blank"><img src="instagram.png" alt="Instagram Logo"></a>
+        <a href="https://linkedin.com/in/aaishwaryakhalane" target="_blank"><img src="twitter.png" alt="Twitter Logo"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

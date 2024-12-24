@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); /* Webpage background */
+  color: black; /* Default text color */
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #e0e0e0;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 24px;
+  color: #333;
+  margin-right: 1000px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+
+.brand-name b {
+  font-weight: bold;
+}
+
+
+#theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#theme-toggle img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Created By Section */
+.created-by {
+  text-align: center;
+  margin: 20px 0; /* Center spacing */
+}
+
+/* Main Content */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 300px); /* Accounts for header, footer, and spacing */
+  margin-bottom: 20px; /* Space between container and footer */
+}
+
+.container {
+
+  background-color: white; /* Black background */
+  color: black; /* White font */
+  padding: 30px;
+  border-radius: 10px;
+  width: 75%; /* Updated width */
+  text-align: center;
+  animation: glow 2s infinite; /* Glow effect */
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  }
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.phone-input {
+  display: flex;
+}
+
+.phone-input select {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.error-message {
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}
+
+.mandatory {
+  color: red;
+}
+
+.btn {
+  margin: 15px;
+  background-color: white; /* Match container */
+  color: black; /* White text */
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: white; /* Inverse hover effect */
+  color: black;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 70px;
+  background-color:whitesmoke;
+  padding: 20px 10px;
+  text-align: center;
+  
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-content h3, .footer-content h4 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  color :black;
+}
+
+.footer-content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color:black;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media img {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adds spacing between rows */
+}
+
+.checkbox-row {
+  display: flex;
+  justify-content: space-between; /* Pushes checkbox to the right */
+  align-items: center;
+  padding: 5px 0;
+}
+
+.checkbox-row input[type="checkbox"] {
+  margin-left: 50%; /* Pushes checkbox to the rightmost position */
+}
