@@ -90,3 +90,7 @@ I believe this project perfectly aligns with the responsibilities and expectatio
 
 ### Closing Note:
 I’m eager to bring my enthusiasm and skills to your team and contribute meaningfully as a **Full-Stack Developer Intern**. Let’s build the future of web solutions together!
+
+## License
+
+This project is licensed under the MIT License. See the full license text below:(MIT License)
