@@ -93,4 +93,6 @@ I’m eager to bring my enthusiasm and skills to your team and contribute meanin
 
 ## License
 
-This project is licensed under the MIT License. See the full license text below:**[View]**(./MIT License)
+## License
+
+This project is licensed under the [MIT License](LICENSE).
