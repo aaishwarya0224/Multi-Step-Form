@@ -83,7 +83,7 @@ I believe this project perfectly aligns with the responsibilities and expectatio
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light Mode Preview](#sun.png) | ![Dark Mode Preview](sun.png) 
+| ![Light Mode Preview](lpreview.jpg) | ![Dark Mode Preview](dpreview.jpg) 
 
 [Visit Website](https://aaishwarya0224.github.io/Mult-Step-form/)
 ---
